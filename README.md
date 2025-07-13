@@ -10,7 +10,7 @@ PokeAPI
 
 https://pokeapi.co/api/v2/type → All Pokémon types
 
-https://pokeapi.co/api/v2/pokemon?limit=1000 → Full list of Pokémon
+https://pokeapi.co/api/v2/pokemon?limit={as your wish} → Full list of Pokémon
 
 https://pokeapi.co/api/v2/type/{type} → Pokémon by type
 
