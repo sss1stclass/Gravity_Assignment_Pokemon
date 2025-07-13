@@ -1,11 +1,7 @@
 import { fetchPokemonDetail } from "../../../lib/fetchPokemon";
 import Link from "next/link";
 
-export default async function PokemonDetailPage({
-  params,
-}: {
-  params: { name: string };
-}) {
+export default async function PokemonDetailPage({params}:any) {
   const { name } = await params;
   const data = await fetchPokemonDetail(name);
 
