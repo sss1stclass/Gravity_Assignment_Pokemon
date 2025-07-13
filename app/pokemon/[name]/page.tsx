@@ -6,7 +6,7 @@ export default async function PokemonDetailPage({
 }: {
   params: { name: string };
 }) {
-  const { name } = params;
+  const { name } = await params;
   const data = await fetchPokemonDetail(name);
 
   return (
